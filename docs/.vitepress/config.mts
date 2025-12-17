@@ -13,13 +13,13 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Examples",
+        text: "工作复盘",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-          { text: "Test Doc", link: "/test-doc" },
-          { text: "Doc1 In Folder", link: "/test-folder/test-sub-doc1" },
-          { text: "Doc2 In Folder", link: "/test-folder/test-sub-doc2" },
+          { text: "微信小程序长列表性能优化", link: "/work/miniprogram-list-optimization" },
+          // { text: "Runtime API Examples", link: "/api-examples" },
+          // { text: "Test Doc", link: "/test-doc" },
+          // { text: "Doc1 In Folder", link: "/test-folder/test-sub-doc1" },
+          // { text: "Doc2 In Folder", link: "/test-folder/test-sub-doc2" },
         ],
       },
     ],
