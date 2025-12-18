@@ -4,22 +4,25 @@ layout: home
 
 hero:
   name: "Zephyr's Blog"
-  text: "Zephyr's Blog"
-  tagline: My great project tagline
+  text: "Zephyr 的成长记录"
+  tagline: 唯爱与生命，不可辜负
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 技术文档
+      link: /technology
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 工作复盘
+      link: /work
+    - theme: alt
+      text: 生活点滴
+      link: /life
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

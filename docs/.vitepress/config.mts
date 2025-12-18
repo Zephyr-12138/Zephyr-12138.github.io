@@ -8,10 +8,19 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      // { text: "Examples", link: "/markdown-examples" },
     ],
 
     sidebar: [
+      {
+        text: '技术文档',
+        items: [
+          {
+            text: 'css包含块',
+            link: '/'
+          }
+        ]
+      },
       {
         text: "工作复盘",
         items: [
@@ -22,10 +31,20 @@ export default defineConfig({
           // { text: "Doc2 In Folder", link: "/test-folder/test-sub-doc2" },
         ],
       },
+      {
+        text: "生活点滴",
+        items: [
+          { text: "一个程序员的菜谱", link: "/life/menu" },
+          // { text: "Runtime API Examples", link: "/api-examples" },
+          // { text: "Test Doc", link: "/test-doc" },
+          // { text: "Doc1 In Folder", link: "/test-folder/test-sub-doc1" },
+          // { text: "Doc2 In Folder", link: "/test-folder/test-sub-doc2" },
+        ],
+      },
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      // { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
   },
 });
