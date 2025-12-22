@@ -16,6 +16,10 @@ export default defineConfig({
         text: '技术文档',
         items: [
           {
+            text: 'VSCode 中的快捷键',
+            link: '/technology/shortcut-keys'
+          },
+          {
             text: 'css包含块',
             link: '/technology/containing-block'
           }
