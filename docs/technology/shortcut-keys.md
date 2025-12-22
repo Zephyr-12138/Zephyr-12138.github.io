@@ -3,7 +3,7 @@
 
 
 - 选中某段文本后按 ctrl + D 批量选中与选中文本相同的文本（大小写不敏感）
-![ctrl+D](/public/shortcut-keys/ctrl+D.png)
+![ctrl+D](/public/shortcut-keys/ctrl+d.png)
 
 - ctrl + U 为 ctrl + D 的逆操作，即取消选中刚才 ctrl + D 选中的文本
 
