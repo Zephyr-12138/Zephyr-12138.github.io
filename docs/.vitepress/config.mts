@@ -17,7 +17,7 @@ export default defineConfig({
         items: [
           {
             text: 'css包含块',
-            link: '/'
+            link: '/technology/containing-block'
           }
         ]
       },
