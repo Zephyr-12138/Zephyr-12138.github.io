@@ -20,9 +20,13 @@ export default defineConfig({
             link: '/technology/shortcut-keys'
           },
           {
-            text: 'css包含块',
+            text: 'CSS 包含块',
             link: '/technology/containing-block'
-          }
+          },
+          {
+            text: 'V8 的隐藏类',
+            link: '/technology/hidden-class'
+          },
         ]
       },
       {
