@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Zephyr's Blog"
   text: "Zephyr 的成长记录"
-  tagline: 唯爱与生命，不可辜负
+  tagline: 少一些功利主义的追求，多一些不为什么的坚持
   actions:
     - theme: brand
       text: 技术文档
