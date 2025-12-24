@@ -27,6 +27,10 @@ export default defineConfig({
             text: 'V8 的隐藏类',
             link: '/technology/hidden-class'
           },
+          {
+            text: 'JS 中的数组模式',
+            link: '/technology/array-mode'
+          },
         ]
       },
       {
