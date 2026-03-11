@@ -1,4 +1,4 @@
-import { defineConfig } from "vitepress";
+﻿import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -37,6 +37,7 @@ export default defineConfig({
         text: "工作复盘",
         items: [
           { text: "微信小程序长列表性能优化", link: "/work/miniprogram-list-optimization" },
+          { text: "提交流程重复点击问题复盘", link: "/work/repeat-submit-and-navigation" },
           // { text: "Runtime API Examples", link: "/api-examples" },
           // { text: "Test Doc", link: "/test-doc" },
           // { text: "Doc1 In Folder", link: "/test-folder/test-sub-doc1" },
