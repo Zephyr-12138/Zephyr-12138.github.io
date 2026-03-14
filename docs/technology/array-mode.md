@@ -31,7 +31,7 @@ console.timeEnd("arr2");
 ```
 
 控制台输出：
-![案例输出结果](/public/array-mode/demo-result.png)
+![案例输出结果](/array-mode/demo-result.png)
 
 arr2 的遍历时间之所以远长于 arr1，是因为 arr2[10000000 - 1] 这一句代码使得 arr2 的下标为 0 ~ 9999998 的元素都为 empty，触发了 V8 使用字典模式来存储 arr2，所以访问速度更慢
 

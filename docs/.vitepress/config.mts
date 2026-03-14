@@ -4,6 +4,8 @@
 export default defineConfig({
   title: "Zephyr's Blog",
   description: "Zephyr's Blog",
+  // Deploy under https://<host>/blog/
+  base: "/blog/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

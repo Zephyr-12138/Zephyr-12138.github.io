@@ -6,18 +6,18 @@
 
 
 - 选中某段文本后按 ctrl + D 批量选中与选中文本相同的文本（大小写不敏感）
-![ctrl+D](/public/shortcut-keys/ctrl+d.png)
+![ctrl+D](/shortcut-keys/ctrl+d.png)
 
 - ctrl + U 为 ctrl + D 的逆操作，即取消选中刚才 ctrl + D 选中的文本
 
 - 长按 alt 鼠标点击多个任意位置，可以在不同位置放置多个光标，便于一次性在多个不同的地方插入相同的文本
-![alt+mouse](/public/shortcut-keys/alt+mouse.png)
+![alt+mouse](/shortcut-keys/alt+mouse.png)
 
 - 长按 shift + alt 用鼠标分别点击首行以及末行同一列位置，可以在首行与末行之间的每行的同一位置都放置一个光标
-![shift+alt+mouse](/public/shortcut-keys/shift+alt+mouse1.png)
+![shift+alt+mouse](/shortcut-keys/shift+alt+mouse1.png)
 
 - 长按 shift + alt 用鼠标分别点击首行以及末行不在同一列位置，可以将首行与末行之间的每一行的两列直接的部分都选中
-![shift+alt+mouse](/public/shortcut-keys/shift+alt+mouse2.png)
+![shift+alt+mouse](/shortcut-keys/shift+alt+mouse2.png)
 
 - alt + B 若当前文件为 html 文件，则使用默认浏览器打开当前文件
 
