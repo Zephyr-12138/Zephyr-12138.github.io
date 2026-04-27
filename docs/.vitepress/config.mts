@@ -36,7 +36,7 @@ export default defineConfig({
         ]
       },
       {
-        text: "工作复盘",
+        text: "项目复盘",
         items: [
           { text: "微信小程序长列表性能优化", link: "/work/miniprogram-list-optimization" },
           { text: "提交流程重复点击问题复盘", link: "/work/repeat-submit-and-navigation" },
@@ -44,6 +44,10 @@ export default defineConfig({
           // { text: "Test Doc", link: "/test-doc" },
           // { text: "Doc1 In Folder", link: "/test-folder/test-sub-doc1" },
           // { text: "Doc2 In Folder", link: "/test-folder/test-sub-doc2" },
+          {text: "elpis - 基于“领域模型”的全栈开发框架", items: [
+            {text: "基于 NodeJs(Koa) 实现服务端内核引擎", link: "/work/elpis/elpis-core"},
+            // {text: "elpis2", link: "/test-folder/test-sub-doc2"}
+          ]}
         ],
       },
       {
