@@ -151,4 +151,5 @@
 
 - 获取到模型描述和项目描述后，将两者进行整合：模型中存在而项目中不存在的属性，继承过来；模型中不存在而项目中存在的属性则保留；模型和项目都存在的相同属性，项目的覆盖模型的；menu 中的每个 menuItem 也以 key 为关键字遵循前述方式，这样就得到了一份最终的项目描述
 - 基于项目描述，将其中的 icon, name, menu 渲染到头部，menu 中的每个 menuItem 描述决定了点击这个菜单后内容区域会展示的模块，当 menuItem 的 moduleType 为 schema 时，根据 schemaConfig 配置，动态渲染出管理模块的搜索栏和表格部分，搜索栏是基于 schemaConfig.schema.properties 每一项目的 searchOption 与 schemaConfig.searchConfig 生成出来的，searchOption 描述了该字段在搜索栏中的表现形式，例如它是一个 input 或 select，因此，还需要基于 Element Plus 的表单组件封装一个能够解析的 searchOption 的表单组件库，然后在一个统一的入口注册这些组件库并导出，解析引擎中会使用 Vue 中的动态组件 component 与 searchOption 的 comType 从这个统一入口中选择对应的表单控件并进行渲染，值得注意的是，searchOption 中支持配置所有 Element Plus 的组件属性，前面提到的封装的组件库会继承这些属性（通过 v-bind 实现），实现更高的定制化能力。同理，基于schemaConfig.schema.properties 每一项目的 tableOption 与 schemaConfig.tableConfig 可以生成出管理模块的表格部分
-- schemaConfig.api 记录了操作管理模块数据的接口地址，对应接口需要遵循 Restful Api 规范，解析引擎会使用 GET, POST, PUT, DELETE 请求方式实现对应语义的数据操作 
+- schemaConfig.api 记录了操作管理模块数据的接口地址，对应接口需要遵循 Restful Api 规范，解析引擎会使用 GET, POST, PUT, DELETE 请求方式实现对应语义的数据请求
+- 如果某个模块定制化程度较高，已无法通过 schema 描述出来，这种模块的 moduleType 可以是 iframe（其他地方部署的页面） 或 custom（项目中自行实现的定制化页面），对应的 iframeConfig 或 customConfig 中会记录对应模块的地址或路径，对于 iframe 解析引擎会使用 iframe 元素渲染；对于 custom，则渲染对应路径的组件
