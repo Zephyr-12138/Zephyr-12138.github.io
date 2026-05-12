@@ -47,6 +47,7 @@ export default defineConfig({
           {text: "elpis - 基于“领域模型”的全栈开发框架", items: [
             {text: "基于 NodeJs(Koa) 实现服务端内核引擎", link: "/work/elpis/elpis-core"},
             {text: "基于 Webpack 5 完成工程化建设", link: "/work/elpis/engineering"},
+            {text: "基于 Vue3 完成领域模型架构建设", link: "/work/elpis/domain-model"},
           ]}
         ],
       },
