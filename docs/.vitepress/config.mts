@@ -48,6 +48,7 @@ export default defineConfig({
             {text: "基于 NodeJs(Koa) 实现服务端内核引擎", link: "/work/elpis/elpis-core"},
             {text: "基于 Webpack 5 完成工程化建设", link: "/work/elpis/engineering"},
             {text: "基于 Vue3 完成领域模型架构建设", link: "/work/elpis/domain-model"},
+            {text: "基于 Vue3 完成动态组件库建设", link: "/work/elpis/dynamic-components"},
           ]}
         ],
       },

@@ -11,7 +11,7 @@ hero:
       text: 技术文档
       link: /technology
     - theme: alt
-      text: 工作复盘
+      text: 项目复盘
       link: /work
     - theme: alt
       text: 生活点滴
